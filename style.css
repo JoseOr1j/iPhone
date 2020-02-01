@@ -1,0 +1,37 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: #ddaadd;
+    font-family: 'Open Sans';
+}
+
+.center
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgba(204, 204, 204, 1)
+}
+
+.boxItem
+{
+    background: #ffffff;
+    min-width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0,01);
+}
+.imgPro
+{
+    background: #dedede;
+    
+}
+
+.imgPro img{
+    padding: 20px 0 5px 30px;
+}
