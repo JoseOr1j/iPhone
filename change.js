@@ -1,6 +1,6 @@
 var alliPhonesImg = ['iPhone7_black', 'iPhone7_gold', 'iPhone7_jetblack', 'iPhone7_rosegold', 'iPhone7_silver'];
-var imgPro = document.querySelector('.imgPro images');
-var allColors = document.querySelector('.allColors li');
+var imgPro = document.querySelector('.imgPro img');
+var allColors = document.querySelectorAll('.allColors li');
 
 
 allColors.forEach(colors => colors.addEventListener('click', function (elem)
@@ -12,31 +12,31 @@ allColors.forEach(colors => colors.addEventListener('click', function (elem)
 
     if(this.className === 'black')
     {
-imgPro.src = 'images/'+alliPhonesImg[0]+'.png';
+    imgPro.src = 'images/'+alliPhonesImg[0]+'.png';
     imgPro.classList.add('animate');
     }
 
     if(this.className === 'gold')
     {
-imgPro.src = 'images/'+alliPhonesImg[1]+'.png';    
+    imgPro.src = 'images/'+alliPhonesImg[1]+'.png';    
     imgPro.classList.add('animate');
     }
 
     if(this.className === 'jetblack')
     {
-imgPro.src = 'images/'+alliPhonesImg[2]+'.png';
+    imgPro.src = 'images/'+alliPhonesImg[2]+'.png';
     imgPro.classList.add('animate');
     }
 
     if(this.className === 'rosegold')
     {
-imgPro.src = 'images/'+alliPhonesImg[3]+'.png';
+    imgPro.src = 'images/'+alliPhonesImg[3]+'.png';
     imgPro.classList.add('animate');
     }
 
     if(this.className === 'silver')
     {
-imgPro.src = 'images/'+alliPhonesImg[4]+'.png';
+    imgPro.src = 'images/'+alliPhonesImg[4]+'.png';
     imgPro.classList.add('animate');
     }
 
